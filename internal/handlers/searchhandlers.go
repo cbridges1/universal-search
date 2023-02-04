@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 	"sync"
-	"universal-search/pkg/controllers"
-	"universal-search/pkg/models"
-	"universal-search/pkg/utils"
+	"universal-search/internal/controllers"
+	"universal-search/internal/models"
+	"universal-search/internal/utils"
 )
 
 func SearchHandler(res http.ResponseWriter, req *http.Request) {

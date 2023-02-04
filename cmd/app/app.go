@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-	"universal-search/pkg/handlers"
+	"universal-search/internal/handlers"
 
 	"github.com/joho/godotenv"
 )

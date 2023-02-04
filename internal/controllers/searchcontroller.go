@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 	"strconv"
-	"universal-search/pkg/models"
-	"universal-search/pkg/utils"
+	"universal-search/internal/models"
+	"universal-search/internal/utils"
 )
 
 func GoogleSearch(query string, limit string) []models.Results {

@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 	"time"
-	"universal-search/pkg/models"
+	"universal-search/internal/models"
 )
 
 var myClient = &http.Client{Timeout: 20 * time.Second}
